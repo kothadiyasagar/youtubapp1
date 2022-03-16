@@ -101,22 +101,23 @@ body {
     background-color: #e5e5e5;
     border: none;
   }
-  #content {
+  #search_retules {
     background-color: #f9f9f9;
     width: 100%;
     height: 100%;
     padding: 15px 15px;
     border-top: 1px solid #ddd;
-     overflow-y: scroll; 
+    
   }
 
-  #content{
+  #search_retules{
       display: grid;
       grid-template-columns: repeat(4,1fr);
       grid-template-rows: auto;
       gap: 20px;
+      overflow-y: scroll; 
   }
-  #content>div:hover {
+  #search_retules>div:hover {
     background: #e5e5e5;
     cursor: pointer;
   }
